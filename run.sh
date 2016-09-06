@@ -1,2 +1,2 @@
-docker run --rm --name postgres-osm -v ~/Repositories/Docker/data/osm:/data --env PGDATA=/data jwdanielgis/postgres-osm
+docker run --rm --name postgres -v ~/Docker/postgres-data:/data --env PGDATA=/data/pgsql jwdanielgis/postgres
 
